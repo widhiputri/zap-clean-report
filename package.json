@@ -1,0 +1,30 @@
+{
+  "name": "zap-clean-report",
+  "version": "0.1.1",
+  "description": "Generate clean, non-technical HTML reports from OWASP ZAP JSON output",
+  "keywords": ["owasp", "zap", "security", "report", "html", "pentest", "vulnerability"],
+  "author": "Widhi Putri",
+  "license": "MIT",
+  "main": "src/report.js",
+  "bin": {
+    "zap-clean-report": "bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "examples/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/widhiputri/zap-clean-report.git"
+  },
+  "homepage": "https://github.com/widhiputri/zap-clean-report#readme",
+  "bugs": {
+    "url": "https://github.com/widhiputri/zap-clean-report/issues"
+  }
+}

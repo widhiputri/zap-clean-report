@@ -1,0 +1,10 @@
+node_modules/
+*.tgz
+
+# Generated reports
+*-security-report.html
+*.report.html
+
+# ZAP output files (may contain real scan data)
+zap-output.json
+zap-report.json
