@@ -1,6 +1,6 @@
 {
   "name": "zap-clean-report",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Generate clean, non-technical HTML reports from OWASP ZAP JSON output",
   "keywords": ["owasp", "zap", "security", "report", "html", "pentest", "vulnerability"],
   "author": "Widhi Putri",
@@ -16,6 +16,9 @@
     "README.md",
     "LICENSE"
   ],
+  "scripts": {
+    "test": "node bin/cli.js examples/zap-api-sample.json --output test-report.html && echo 'Report generated OK'"
+  },
   "engines": {
     "node": ">=16"
   },
