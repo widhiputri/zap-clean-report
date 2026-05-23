@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/widhiputri/zap-clean-report.git"
+    "url": "git+https://github.com/widhiputri/zap-clean-report.git"
   },
   "homepage": "https://github.com/widhiputri/zap-clean-report#readme",
   "bugs": {
